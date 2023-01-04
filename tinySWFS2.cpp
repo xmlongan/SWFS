@@ -12,21 +12,6 @@ int main()
 	//usint machineCounts_exist[12] = { 4,3,10,1,1,2,1,4,1,9,2,2 };
 	//Fab fab_exist = Fab(machineCounts_exist);
 
-	//vector<float> samples{};
-	//for (size_t i = 0; i < 200; i++)
-	//{
-	//	fab_exist.simulation();
-	//	samples.push_back(fab_exist.t);
-	//	fab_exist.reset();
-	//}
-	//ofstream fout;
-	//fout.open("200-run-exist-fab.csv");
-	//for (size_t i = 0; i < 200; i++)
-	//{
-	//	fout << samples[i] << endl;
-	//}
-	//fout.close();
-
 	//fab_exist.simulation();
 	//print_result(fab_exist);
 	//mass_run_margin_one(fab_exist, 4, 200u, 1u);
