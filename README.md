@@ -46,9 +46,9 @@ then uncomment the corresponding implementations in the source file `Fab.cpp`:
 
 After the two steps, we can use the method `simulation_and_record()` to run the simulation and the intermediate state changes will be written in file `SWFS-state-update-record.html` which we can explore with any browser. Note that the `head.html` and `foot.html` are building blocks for the former html file.
 
-- `lessOb_moreIb(const usint& i, const usint& j)` and `maxIb_minOb(const usint& si)` is for wafer lots scheduling: select the max incoming buffer with the least outgoing buffer, excluding least those outgoing buffers with 0 incoming buffer.
-- `reset()`, `add_machine(const usint& sNo)` and `del_machine(const usint& sNo)` are for reset SWFSs.
-- `rexp(const float& mean)` for generating exponential random variables with parameter `mean`.
+- `lessOb_moreIb(const usint& i, const usint& j)` and `maxIb_minOb(const usint& si)`: wafer lots scheduling, select the max incoming buffer with the least outgoing buffer, excluding those outgoing buffers with 0 incoming buffer.
+- `reset()`, `add_machine(const usint& sNo)` and `del_machine(const usint& sNo)`: reset SWFSs.
+- `rexp(const float& mean)`: generating exponential random variables with parameter `mean`.
 
 ## Marginal Machine Allocation Algorithms
 
